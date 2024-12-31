@@ -81,7 +81,6 @@ blueprint:
         default: []
         selector:
             action: {}
-  source_url: https://community.home-assistant.io/t/zigbee2mqtt-sync-keypad-and-with-alarm-control-panel-states/345311
 variables:
   pin_var: !input 'pin'
   pin_var_custom1: !input 'custom_pin1'
