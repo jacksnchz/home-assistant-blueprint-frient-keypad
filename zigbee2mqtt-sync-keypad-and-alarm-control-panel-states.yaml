@@ -13,10 +13,10 @@ blueprint:
         name: Pincode
         description: "The valid pin code to be accepted as correct by your alarm system. Example: 1234"
     rfid_codes:
-      name: Allowed RFID Codes
-      description: "A list of valid rfid codes to be accepted as correct by your alarm system. Example: 1234, 5678, 9101"
-      selector:
-        object: {}    
+        name: Allowed RFID Codes
+        description: "A list of valid rfid codes to be accepted as correct by your alarm system. Example: 1234, 5678, 9101"
+        selector:
+          object: {}    
     control_panel:
         name: Control Panel
         description: "An alarm control panel. Example: https://www.home-assistant.io/integrations/manual"
