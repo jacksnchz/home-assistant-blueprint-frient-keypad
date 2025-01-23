@@ -12,14 +12,6 @@ blueprint:
     pin:
         name: Pincode
         description: "The valid pin code to be accepted as correct by your alarm system. Example: 1234"
-    rfid_codes:
-        name: RFID Codes
-        description: "The RFID codes allowed to be accepted as correct by your alarm system."
-        selector:
-          list:
-            item:
-              type: string
-            custom_value: true
     control_panel:
         name: Control Panel
         description: "An alarm control panel. Example: https://www.home-assistant.io/integrations/manual"
@@ -91,7 +83,6 @@ blueprint:
             action: {}
 variables:
   pin_var: !input 'pin'
-  rfid_codes_var: !input 'rfid_codes'
   pin_var_custom1: !input 'custom_pin1'
   pin_var_custom2: !input 'custom_pin2'
 trigger:
