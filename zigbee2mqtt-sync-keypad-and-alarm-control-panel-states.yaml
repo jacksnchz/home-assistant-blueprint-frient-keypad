@@ -14,7 +14,7 @@ blueprint:
         description: "The valid pin code to be accepted as correct by your alarm system. Example: 1234"
     rfid_codes:
         name: RFID Codes
-        description: "The RFID codes allowed to be accepted as correct by your alarm system.
+        description: "The RFID codes allowed to be accepted as correct by your alarm system."
         selector:
           list:
             item:
