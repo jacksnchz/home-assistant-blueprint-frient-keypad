@@ -88,6 +88,7 @@ blueprint:
             action: {}
 variables:
   pin_var: !input 'pin'
+  rfid_codes_var: !input 'rfid_codes'
   pin_var_custom1: !input 'custom_pin1'
   pin_var_custom2: !input 'custom_pin2'
 trigger:
