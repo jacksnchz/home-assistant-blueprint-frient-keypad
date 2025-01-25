@@ -3,8 +3,12 @@ Blueprint inspired in [AndrejDelany version](https://community.home-assistant.io
 
 - Night mode support added
 - SOS/emergency action
+- Multiple RFID codes (using MIFARE Classic 1K 13,56 Mhz)
+
+FAQ:
+How to retrieve rfid code using keypad?
+Bring closer the tag to keypad and push any action button (for example disarm, arm night, disarm). Visit Zigbee2MQTT console log and search the "action_code" in the payload received.
 
 TODO:
 - No code required for arming
-- RFID tag compatibility
 - ...
